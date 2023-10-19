@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+  border: 2px solid green;
+}
+.container {
+  width: 550px;
+  border: 2px solid black;
+  margin: 50px auto;
+  /* position: relative; */
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+.purple {
+  background-color: purple;
+  position: relative;
+  left: 30px;
+  top: 40px;
+  z-index: -1;
+}
+.green {
+  background-color: green;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+.orange {
+  background-color: orange;
+  position: sticky;
+  top: 0;
+}
+.red {
+  background-color: red;
+  position: fixed;
+}
