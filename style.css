@@ -1,18 +1,7 @@
-body {
-  background-color: #000;
+.image-s {
+  border: solid 2px black;
+  /* float: right; */
 }
-.heading_01 {
-  border: solid 2px #fff;
-  border-radius: 20px;
-  height: 70px;
-  width: 25%;
-  text-align: center;
-  padding-top: 30px;
-  margin-left: 400px;
-  background-color: gray;
-  background: linear-gradient(0.67turn, forestgreen, rgb(231, 189, 111));
-}
-
-p {
-  color: #00ff73;
+#image-s-02 {
+  float: left;
 }
