@@ -1,38 +1,36 @@
 body {
   margin: 0;
   padding: 0;
-  height: 200vh;
-  border: 2px solid green;
+  background-color: #fafaf9;
 }
 .container {
-  width: 550px;
-  border: 2px solid black;
-  margin: 50px auto;
-  /* position: relative; */
+  /* border: solid 2px red; */
+  margin-top: 164px;
+  margin-left: 164px;
+  width: 368px;
+  height: 246px;
 }
-.box {
-  width: 150px;
-  height: 150px;
-}
-.purple {
-  background-color: purple;
+.upper-section {
+  border: solid 1px red;
   position: relative;
-  left: 30px;
-  top: 40px;
-  z-index: -1;
 }
-.green {
-  background-color: green;
+.lower-section {
+  border: solid 1px green;
+}
+img {
+  align-items: center;
   position: absolute;
-  top: 30px;
-  left: 10px;
+  right: 16px;
+  top: 16px;
+  width: 336px;
+  height: 152px;
+  border-radius: 10px;
 }
-.orange {
-  background-color: orange;
-  position: sticky;
-  top: 0;
+.design {
+  position: absolute;
+  top: 84px;
 }
-.red {
-  background-color: red;
-  position: fixed;
+.text-section {
+  position: absolute;
+  top: 100px;
 }
