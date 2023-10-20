@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefae0;
+}
+.square-large {
+  background-color: #9cccdb;
+  border: solid 1px #9cccdb;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 85px;
+  position: relative;
+  transform: rotate(45deg);
+}
+.square-small {
+  background-color: #a461e8;
+  border: solid 1px #a461e8;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
